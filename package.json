@@ -1,0 +1,27 @@
+{
+  "name": "lxd-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lxd-cli": "./index.js"
+  },
+  "keywords": [],
+  "author": "lxd",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "^4.1.0",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.3",
+    "minimist": "^1.2.0",
+    "ncp": "^2.0.0"
+  }
+}
